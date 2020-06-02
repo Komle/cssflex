@@ -1,0 +1,31 @@
+header{
+    background-color: coral;
+    height: 20%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.box1{
+    flex-direction:column;
+}
+.box2{
+    flex-direction: column;
+    flex-grow: 3;
+}
+nav{
+    background-color:rgba(236, 240, 6, 0.5) ;
+    height: 200px;
+}
+article{
+    background-color:rgba(236, 240, 6, 0.5) ;
+    height: 350px;
+}
+section{
+    background-color:rgba(236, 240, 6, 0.5) ;
+    height: 200px;
+}
+footer{
+    background-color:rgba(236, 240, 6, 0.5) ;
+    height: 50px;
+}
